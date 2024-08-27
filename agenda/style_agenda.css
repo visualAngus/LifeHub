@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 colonnes */
+    grid-template-rows: repeat(1, 1fr); /* 1 lignes */
+    gap: 10px; /* Espace entre les cases */
+}
+.grid-item-day {
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+}
+.grid-item-hour {
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+}
